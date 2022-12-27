@@ -1,0 +1,196 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.Main-body{
+    background-color: #f0f0f0;
+    height: 730px;
+    width: 950px;
+    padding: 20px;
+    margin-left: 18%;
+    
+   
+}
+header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#logo-iMg{
+    height: 50px;
+    width: 110px;
+}
+a{
+    text-decoration: none; 
+     margin-left: 30px;
+     color: rgb(157, 158, 152);
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+  
+    margin-top: 20px;
+}
+a:hover{
+
+    color: black;
+    border-bottom: 3px solid blue; 
+    
+
+
+}
+.your-acc{
+    background-color: #ffd8db;
+    height: 50px;
+    width: auto;
+    border-radius: 25px;
+    color: #a389cc;
+    border: 0px; 
+    cursor: pointer;
+}
+h2{
+    font-size: 46px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.point{
+    background-color: #6060c5;
+    height: 9px;
+    width: 9px;
+    display: inline-block;
+    margin-left: -13px;
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#788181;
+    font-size: 14px;
+    line-height: 23px;
+}
+main{
+    display: flex;
+    margin-left: 85px;
+    margin-top: 70px;
+}
+#picture{
+     position: relative;
+    top:70px;
+    left: 15px;  
+    height: 475px;
+    width:auto;
+}
+#new-acc{
+    background-color: #5243c0;
+    height: 50px;
+    width: auto;
+    padding: 10px;
+     border: 0px; 
+    border-radius: 25px;
+    cursor: pointer;
+    color: #ffffff;
+}
+#arrow{
+    height: 50px;
+    width: 45px;
+    
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width:315px ;
+    /* justify-content: space-around; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 14px;
+
+}
+.tick-{
+    display:inline-block;
+}
+#blue-tick{
+    display: none;
+}
+.card1:hover #grey-tick{
+    display: none;
+}
+.card1:hover #blue-tick{
+    display: inline;
+
+}
+.card1:hover{
+    background-color: white;
+     border-radius: 17px; 
+    box-shadow: 1px 1px 5px grey;
+}
+.container{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+#pink-round{
+    background-color: #fed7da;
+    height: 10px;
+    width: 20px;
+    border-radius: 12px;
+}
+#red-round{
+    background-color:#fd6534;
+    height: 10px;
+    width: 20px;
+    border-radius: 12px;
+}
+#green-round{
+    background-color: #9ed095;
+    height: 10px;
+    width: 20px;
+    border-radius: 12px;
+}
+#yellow-round{
+    background-color: #ffe4a0;
+    height: 10px;
+    width: 20px;
+    border-radius: 12px;
+
+}
+#yellow-round,#green-round,#red-round,#pink-round{
+    margin-left: 30px;
+}
+#grey-tick,#blue-tick{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+#user-pink{
+    width: auto;
+    height: 28px;
+    margin-left: 30px;
+  
+}
+#user-orange{
+    width: auto;
+    height: 28px;
+    margin-left: 15px;
+  
+}
+#user-blue{
+    width: auto;
+    height: 28px;
+    margin-left: 39px;
+  
+}
+#user-red{
+    width: auto;
+    height: 28px;
+    margin-left: 64px;
+  
+}
+.date{
+    margin-left: 20px;
+    color: rgb(157, 158, 152);
+}
+.naMe{
+    margin-left: 10px;
+}
